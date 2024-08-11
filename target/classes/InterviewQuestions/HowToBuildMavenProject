@@ -1,0 +1,28 @@
+How to build a maven project?
+
+steps file-->new--other--maven--maven project-->next
+-->create simple project-->use default location-->
+-->Group Id--Artifact ID--Finish.
+Then update properties file if needed
+<properties>
+	<maven.compiler.target>17</maven.compiler.target>
+	<maven.compiler.source>17</maven.compiler.source>
+	</properties>
+	
+	What is pom.xml file?
+	Configuration file for the project
+		
+	What is artifactId ?
+	Project Name
+	
+	What is the groupId ?
+	Package Name
+	
+	How do you update your java in the maven
+	<properties>
+	<maven.compiler.target>17</maven.compiler.target>
+	<maven.compiler.source>17</maven.compiler.source>
+	</properties>
+	
+	Why do we need Maven Project?
+	

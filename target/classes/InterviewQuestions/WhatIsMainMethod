@@ -1,0 +1,20 @@
+public static void main(String[] args) {
+	StaticVariables sv= new StaticVariables();
+	sv.Moon();
+	sv.Alam();
+	sv.Tahi();
+}
+
+	public =access modifier-- anyone can access it
+	static ==access specifies--ready to work and easy to access
+	void == no return type-- pre-made method 
+	main== is the unique name for the method
+		only one methodi s allowed in one class
+		
+	
+	StaticVariables sv= new StaticVariables();= class refferential variable
+	
+	Java execution starts from main method
+	Java execution works top to bottom and left to right.
+	
+		
