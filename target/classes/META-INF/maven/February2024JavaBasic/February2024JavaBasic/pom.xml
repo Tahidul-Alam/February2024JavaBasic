@@ -9,4 +9,11 @@
 	<maven.compiler.source>17</maven.compiler.source>
 	</properties>
 
+	<dependencies>
+		<dependency>
+			<groupId>May2024BasicSelenium</groupId>
+			<artifactId>May2024BasicSelenium</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 </project>
