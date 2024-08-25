@@ -12,7 +12,7 @@ public class BaseTestWithIfandElse2 {
 	//same test case but run with multiple browsers
 	// chrome, edge, firefox
 	
-	WebDriver driver;
+	public WebDriver driver;
 	String browser="Chrome";
 	
 	
