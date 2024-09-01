@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="locators.DynamicXpath">
+      <class name="locators2.ContainXpath">
         <methods>
-          <include name="passTest"/>
-          <include name="closeFacebook"/>
-          <include name="openFacebook"/>
+          <include name="openBestBuy"/>
+          <include name="partialContainTextMethod"/>
+          <include name="closeBestBuy"/>
         </methods>
-      </class> <!-- locators.DynamicXpath -->
+      </class> <!-- locators2.ContainXpath -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
