@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="locators2.ContainXpath">
+      <class name="synchronization.ExplicitTest">
         <methods>
-          <include name="openBestBuy"/>
-          <include name="partialContainTextMethod"/>
-          <include name="closeBestBuy"/>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- locators2.ContainXpath -->
+      </class> <!-- synchronization.ExplicitTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
